@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1222</width>
+    <height>801</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>京东商品信息爬虫</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>31</y>
+     <width>132</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="aboutthread">
+    <item>
+     <widget class="QLabel" name="threadnum">
+      <property name="text">
+       <string>线程数量：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="threadnumber">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="runspider">
+   <property name="geometry">
+    <rect>
+     <x>770</x>
+     <y>32</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始爬虫</string>
+   </property>
+   <property name="default">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>21</x>
+     <y>31</y>
+     <width>221</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="aboutshop">
+    <item>
+     <widget class="QLabel" name="shopname">
+      <property name="text">
+       <string>商品名称：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="inputshopname">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTableWidget" name="datatable">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>1181</width>
+     <height>681</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>获取时间</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>商品ID</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>商品名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>店铺名称</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>详情链接</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>品牌</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>价格</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>评论总数</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>好评率</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>差评率</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>选择颜色</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>选择大小</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>效果图片</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="shopdata">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>70</y>
+     <width>150</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>15</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>查询到的数据</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>30</y>
+     <width>180</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="aboutpage">
+    <item>
+     <widget class="QPushButton" name="pagebutton">
+      <property name="text">
+       <string>获取商品页数</string>
+      </property>
+      <property name="default">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="pagecount">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>30</y>
+     <width>162</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="aboutspiderpage">
+    <item>
+     <widget class="QLabel" name="spiderpage">
+      <property name="text">
+       <string>输入爬取页数：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pagenumber">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_4">
+   <property name="geometry">
+    <rect>
+     <x>870</x>
+     <y>30</y>
+     <width>331</width>
+     <height>30</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="queryscope">
+    <item>
+     <widget class="QLabel" name="scope">
+      <property name="text">
+       <string>查询范围：</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="scope1">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="scope3">
+      <property name="text">
+       <string>到</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="scope2">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="finddatafromsql">
+      <property name="text">
+       <string>查询</string>
+      </property>
+      <property name="default">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
