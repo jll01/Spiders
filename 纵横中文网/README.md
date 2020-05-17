@@ -4,7 +4,7 @@
 
 ### zongheng_celery、zongheng_celery_run.py: celery分布式爬虫
 
-### zongheng_spider： CrawlSpider类爬虫
+### zongheng_spider: CrawlSpider类爬虫
 
 ### zongheng.py和zongheng_syn.py: 同步爬虫
 
@@ -18,4 +18,4 @@
 
 ### zongheng_thread_pool.py: 线程池
 
-### 纵横中文.json： 获取的部分数据
+### 纵横中文.json: 获取的部分数据
