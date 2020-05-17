@@ -51,4 +51,4 @@ def Git_Login(email,password):
 
 
 if __name__ == '__main__':
-    Git_Login('491692391@qq.com', 'qupinljl125boba')
+    Git_Login('username', 'passwd')
