@@ -107,7 +107,3 @@ if __name__ == '__main__':
 
     qq = QQMusic()
     qq.main()
-
-
-
-
