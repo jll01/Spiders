@@ -241,7 +241,7 @@ class WeiPinHui(object):
                 break
 
     def get_shop_attribute(self, infos):
-        """获取商品的规格、大小和亚瑟"""
+        """获取商品的规格、大小和颜色"""
         spec = []
         color = []
         for info in infos[0].get('values'):
