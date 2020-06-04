@@ -10,7 +10,7 @@ from lxml import etree
 
 class Price(object):
     def __init__(self):
-        self.chrome_drive = r'D:\soft\Chrome\chromedriver.exe'
+        self.chrome_drive = r'****'
         self.driver = webdriver.Chrome(executable_path=self.chrome_drive)
         self.session = requests.session()
         self.login_url = 'https://member.zjtcn.com/common/login.html'
@@ -56,8 +56,8 @@ class Price(object):
 
         # data = {
         #     'method': 'login',
-        #     'uid': '18866674071',
-        #     'pwd': 'haijidema',
+        #     'uid': '****',
+        #     'pwd': '****',
         #     'remUser': '',
         #     'rememberMe': 'false',
         #     'isKick': '',
@@ -74,7 +74,7 @@ class Price(object):
         cookies['UM_distinctid'] = '16bbcd39794598-0e8805cd158a6a-f353163-144000-16bbcd39795783'
         cookies['CNZZDATA1253678773'] = '2125991752-1562237545-https%253A%252F%252Fmember.zjtcn.com%252F%7C1562237545'
         cookies['SCLOSEDIALOG'] = '1'
-        cookies['user_name'] = 'ltt012'
+        cookies['user_name'] = '****'
         cookies['Hm_lvt_a01b74f783ea1eda2c633ceefd483123'] = '1562237867,1562291638,1562336093,1562338363'
 
         self.result = self.session.post(url, headers=self.headers,cookies=cookies, verify=False).content
