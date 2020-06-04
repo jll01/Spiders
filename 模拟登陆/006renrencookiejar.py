@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
-# @File    :   renrencookiejar
+# @File    :   006renrencookiejar.py
 # @Time    :   2019/11/26 20:55
 # @Author  :   LJL
 # @Version :   1.0
@@ -22,8 +22,8 @@ my_headers = {
 url = 'http://www.renren.com/PLogin.do'
 
 data = {
-    'email':'18873561962',
-    'password':'haijidema125821',
+    'email':'****',
+    'password':'****',
 }
 data = parse.urlencode(data).encode('utf-8')
 req = urllib.request.Request(url,headers=my_headers,data=data)
