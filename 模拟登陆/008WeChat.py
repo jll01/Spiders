@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
-# @File    :   WeChat.py
+# @File    :   008WeChat.py
 # @Time    :   2020/3/29 10:03
 # @Author  :   LJL
 # @Version :   1.0
