@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
-# @File    :   lagou.py
+# @File    :   005lagou.py
 # @Time    :   2019/11/26 11:16
 # @Author  :   LJL
 # @Version :   1.0
@@ -81,7 +81,7 @@ def get_captcha():
 
 
 if __name__ == "__main__":
-    username = "17762269549"
-    passwd = "qupinljl125boba"
+    username = "***"
+    passwd = "****"
     login(username, passwd)
     print(get_cookies())
