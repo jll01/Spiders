@@ -25,9 +25,9 @@ from threading import Thread
 
 class XiaoHongShu(object):
     def __init__(self):
-        self.filepath = r'E:\Study\项目\005爬虫\Spiders\APP抓包\小红书\save_json'
-        self.save_path = r'E:\Study\项目\005爬虫\Spiders\APP抓包\小红书\save_video\{}.mp4'
-        self.save_json = r'E:\Study\项目\005爬虫\Spiders\APP抓包\小红书\xiaohongshu.json'
+        self.filepath = r'***\save_json'
+        self.save_path = r'***\{}.mp4'
+        self.save_json = r'***\xiaohongshu.json'
         self.queue = queue.Queue()
         self.pool = ThreadPoolExecutor(3)
         self.flag = True
