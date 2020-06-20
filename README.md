@@ -52,3 +52,4 @@
 | [唯品会](https://github.com/jll01/Spiders/tree/master/%E7%94%B5%E5%95%86%E5%B9%B3%E5%8F%B0/weipinhui "唯品会")  | 输入城市名称在携程中获取酒店信息 | pymysql、requests、re、threading... |
 | [模拟登录](https://github.com/jll01/Spiders/tree/master/%E6%A8%A1%E6%8B%9F%E7%99%BB%E9%99%86 "模拟登录")  | 模拟登录(微信、微博、拉勾网、BOSS直聘、Github等) | selenium、bs4、requests、re、lxml、PIL... |
 | [网易云音乐](https://github.com/jll01/Spiders/tree/master/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90 "网易云音乐")  | 网易云音乐歌曲下载 | requests、bs4、re、string、Crypto.Cipher... |
+| [IT桔子网](https://github.com/jll01/Spiders/tree/master/IT%E6%A1%94%E5%AD%90%E7%BD%91 "IT桔子网")  | IT桔子网模拟登陆、获取事件库数据 | requests、json... |
