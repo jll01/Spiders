@@ -2,7 +2,7 @@
 
 |     网站/手机软件     |          爬虫          |     工具/库     |
 | :-------------: | :-----------------------: | :--------------: |
-| [3D福利彩票](https://github.com/jll01/Spiders/tree/master/3D%E7%A6%8F%E5%88%A9%E5%BD%A9%E7%A5%A8 "3D福利彩票")  | 获取3D福利彩票历年数据并简单的绘图 | threading、pymysql、re... |
+| [3D福利彩票](./3D福利彩票 "3D福利彩票")  | 获取3D福利彩票历年数据并简单的绘图 | threading、pymysql、re... |
 | [小红书](https://github.com/jll01/Spiders/tree/master/APP%E6%8A%93%E5%8C%85/%E5%B0%8F%E7%BA%A2%E4%B9%A6 "小红书")  | 下载小红书视频并保存视频相关的数据 | threading、pymysql、queue、requests、Fiddler... |
 | [快手](https://github.com/jll01/Spiders/tree/master/APP%E6%8A%93%E5%8C%85/%E5%BF%AB%E6%89%8B "快手")  | 下载快手短视频并保存视频相关的数据 | threading、requests、Fiddler... |
 | [抖音](https://github.com/jll01/Spiders/tree/master/APP%E6%8A%93%E5%8C%85/%E6%8A%96%E9%9F%B3 "抖音")  | 通过app/分享url下载抖音短视频并保存视频相关的数据 | threading、pymysql、requests、Fiddler、夜神模拟器... |
