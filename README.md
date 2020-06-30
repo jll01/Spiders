@@ -11,7 +11,7 @@
 | [美团](./APP抓包/美团 "美团")  | 先要获取到城市的ID, 根据输入的城市查询到ID后提取每个城市中餐厅的名称、地址等信息 | pymysql、requests... |
 | [链家](./APP抓包/链家 "链家")  | 通过输入城市名获取链家app上相应的住房地址、价格等信息 | pymysql、requests... |
 | [CPA之家](./CPA之家 "CPA之家")  | 获取cpa之家数据 | pymysql、requests... |
-| [IP代理](./IP池和Cookie池/ip_pool "IP代理")  | ip代理池 | requests、re... |
+| [IP代理](./IP池和Cookie池 "IP代理")  | ip代理池 | requests、re... |
 | [ITCast老师](./ITCast老师 "ITCast老师")  | ITCast老师信息获取 | scrapy.Spider... |
 | [Mikan动漫](./Mikan "Mikan动漫")  | Mikan首页动漫信息获取(同步、分布式) | redis、requests、lxml、scrapy_redis分布式... |
 | [QQ音乐评论](./QQ音乐评论 "QQ音乐评论")  | celery爬虫 | pymongo、pymysql、requests、celery... |
@@ -50,8 +50,9 @@
 | [淘宝](./电商平台/taobao "淘宝")  | 淘宝商品爬虫, selenium破解滑块验证 | selenium、pymysql、requests、re、lxml... |
 | [天猫](./电商平台/tianmao "天猫")  | 天猫商品信息爬虫 | lxml、requests、re... |
 | [唯品会](./电商平台/weipinhui "唯品会")  | 输入城市名称在携程中获取酒店信息 | pymysql、requests、re、threading... |
-| [模拟登录](./模拟登录 "模拟登录")  | 模拟登录(微信、微博、拉勾网、BOSS直聘、Github等) | selenium、bs4、requests、re、lxml、PIL... |
+| [模拟登录](./模拟登陆 "模拟登录")  | 模拟登录(微信、微博、拉勾网、BOSS直聘、Github等) | selenium、bs4、requests、re、lxml、PIL... |
 | [网易云音乐](./网易云音乐 "网易云音乐")  | 网易云音乐歌曲下载 | requests、bs4、re、string、Crypto.Cipher... |
 | [IT桔子网](./IT桔子网 "IT桔子网")  | IT桔子网模拟登陆、获取事件库数据 | requests、json... |
 | [云听斗罗大陆音频下载](./云听斗罗大陆音频下载 "云听斗罗大陆音频下")  | 云听斗罗大陆音频下载 | requests、concurrent.futures、re... |
 | [笑话网](./模板 "笑话网爬虫")  | 不同方法对笑话网进行爬虫 | requests、concurrent.futures、celery、gevent、multiprocessing、urllib3... |
+| [腾讯视频弹幕](./腾讯视频弹幕 "斗罗大陆弹幕")  | 斗罗大陆弹幕 | requests、pymysql、re... |
