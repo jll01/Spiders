@@ -54,3 +54,4 @@
 | [网易云音乐](https://github.com/jll01/Spiders/tree/master/%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90 "网易云音乐")  | 网易云音乐歌曲下载 | requests、bs4、re、string、Crypto.Cipher... |
 | [IT桔子网](https://github.com/jll01/Spiders/tree/master/IT%E6%A1%94%E5%AD%90%E7%BD%91 "IT桔子网")  | IT桔子网模拟登陆、获取事件库数据 | requests、json... |
 | [云听斗罗大陆音频下载](https://github.com/jll01/Spiders/tree/master/%E4%BA%91%E5%90%AC%E6%96%97%E7%BD%97%E5%A4%A7%E9%99%86%E9%9F%B3%E9%A2%91%E4%B8%8B%E8%BD%BD "云听斗罗大陆音频下")  | 云听斗罗大陆音频下载 | requests、concurrent.futures、re... |
+| [笑话网](https://github.com/jll01/Spiders/tree/master/%E6%A8%A1%E6%9D%BF "笑话网爬虫")  | 不同方法对笑话网进行爬虫 | requests、concurrent.futures、celery、gevent、multiprocessing、urllib3... |
