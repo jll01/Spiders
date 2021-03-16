@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   cpazhijia.py
-# @Time    :   2020/6/7 9:43
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import requests
 import random
 import time
@@ -27,7 +15,7 @@ class CPA(object):
         self.commit_num = 0
         self.file = ''
         self.log = ''
-        self.connect = pymysql.connect(host='localhost', port=3306, user='root', password='0000', db='scrapytest')
+        self.connect = pymysql.connect(host='', port=0, user='', password='', db='')
         self.cur = self.connect.cursor()
 
     def get_json(self):

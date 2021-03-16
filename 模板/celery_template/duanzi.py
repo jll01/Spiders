@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   duanzi.py
-# @Time    :   2020/6/12 10:20
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 from celery_template.tasks import get_content
 
 

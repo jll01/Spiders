@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   meipai.py
-# @Time    :   2020/5/4 21:35
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import requests
 import time
 import random
@@ -36,9 +24,9 @@ class MeiPai(object):
         # 视频评论url
         self.comment_url = '''https://www.meipai.com/medias/comments_timeline?page={}&count=10&id={}'''  # 1204187052
         # 下载视频路径
-        self.video_path = r'E:\Study\项目\005爬虫\Spiders\美拍\下载\{}.mp4'
+        self.video_path = r'****{}.mp4'
         # 城市code文件路径
-        self.code_path = r'E:\Study\项目\005爬虫\Spiders\美拍\city_code.json'
+        self.code_path = r'****city_code.json'
         # 保存视频id
         self.save_video_id = []
         # 保存用户id
@@ -66,7 +54,7 @@ class MeiPai(object):
         # 获取视频页码数
         # self.num = num
         # 获取视频保存路径下所有文件
-        self.file_list = os.listdir(r'E:\Study\项目\005爬虫\Spiders\美拍\下载')
+        self.file_list = os.listdir(r'****')
         # video连接mysql
         self.video_connect = pymysql.connect(host='localhost', port=3306, user='root', passwd='0000', db='scrapytest')
         self.video_cur = self.video_connect.cursor()

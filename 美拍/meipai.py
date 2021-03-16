@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   meipai.py
-# @Time    :   2020/5/2 21:35
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import requests
 import time
 import random
@@ -33,7 +21,7 @@ class MeiPai(object):
         # 视频评论url
         self.comment_url = '''https://www.meipai.com/medias/comments_timeline?page={}&count=10&id={}'''  # 1204187052
         # 下载视频路径
-        self.video_path = r'E:\Study\项目\005爬虫\Spiders\美拍\下载\{}.mp4'
+        self.video_path = r'****{}.mp4'
         # 保存视频id
         self.save_video_id = []
         # 保存用户id
@@ -53,7 +41,7 @@ class MeiPai(object):
         获取视频和用户的json数据
         """
         # 获取视频保存路径下所有文件
-        file_list = os.listdir(r'E:\Study\项目\005爬虫\Spiders\美拍\下载')
+        file_list = os.listdir(r'****')
 
         for i in range(self.num):
             headers = {
@@ -414,10 +402,10 @@ class MeiPai(object):
         """
         调用接口
         """
-        if not os.path.exists(r'E:\Study\项目\005爬虫\Spiders\美拍\city_code.json'):
+        if not os.path.exists(r'city_code.json'):
             self.get_city_code()
         else:
-            with open(r'E:\Study\项目\005爬虫\Spiders\美拍\city_code.json', 'r', encoding='utf-8') as f:
+            with open(r'city_code.json', 'r', encoding='utf-8') as f:
                 self.city_code.update(json.loads(f.read()))
         self.from_sql_get_id()
         self.get_info()

@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   lianjia.py
-# @Time    :   2020/2/15 9:00
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import requests
 import json
 import time
@@ -26,7 +14,7 @@ class LianJia(object):
         # 增量
         self.offset = 0
         # mysql数据库
-        self.connect = pymysql.connect(host='localhost', port=3306, user='root', passwd='0000', db='scrapytest')
+        self.connect = pymysql.connect(host='', port=0, user='', passwd='', db='')
         self.cur = self.connect.cursor()
         # 输入的城市名
         self.area = input_area

@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   douyuapp.py
-# @Time    :   2020/3/15 19:28
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import requests
 import json
 import time
@@ -26,7 +14,7 @@ class DouYu(object):
             'User-Agent': 'android/5.9.4 (android 5.1.1; ; HUAWEI+MLA-AL10)',
         }
         # 链接mysql数据库
-        self.connect = pymysql.connect(host='localhost', port=3306, db='scrapytest', user='root', passwd='0000')
+        self.connect = pymysql.connect(host='****', port=0000, db='****', user='****', passwd='****')
         self.cur = self.connect.cursor()
 
     def get_info(self):

@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   3D.py
-# @Time    :   2019/12/11 12:50
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import requests
 import time
 import re
@@ -33,7 +21,7 @@ class Ticket(object):
         # 线程锁
         self.lock = Lock()
         # 连接mysql数据库
-        self.connect = pymysql.connect(host='localhost', port=3306, user='root', passwd='0000', db='scrapytest')
+        self.connect = pymysql.connect(host='****', port=0000, user='****', passwd='****', db='****')
         self.cur = self.connect.cursor()
 
     def send_request(self):

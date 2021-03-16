@@ -59,7 +59,7 @@
 | [ICP域名信息备案管理系统](./ICP域名信息备案管理系统幕 "ICP域名信息备案管理系统")  | 获取域名ICP(js) | requests、opencv... |
 | [OCR](./OCR "百度飞桨")  | 百度飞桨 | paddleocr... |
 | [Selenium反爬虫](./Selenium反爬虫 "Selenium反爬虫")  | 防止识别Selenium和极验滑动验证码 | requests、selenium、numpy... |
-| [Selenium获取response headers](./Selenium获取response headers "Selenium获取response headers")  | Selenium获取response headers | selenium... |
+| [Selenium获取response_headers](./Selenium获取response_headers "Selenium获取response headers")  | Selenium获取response headers | selenium... |
 | [Selenium反爬虫](./Selenium反爬虫 "Selenium反爬虫")  | 防止识别Selenium和极验滑动验证码 | requests、selenium、numpy... |
 | [spider_api](./spider_api "spider_api")  | Flask,域名ICP | flask、requests、socket... |
 | [各个应用市场app下载](./各个应用市场app下载 "各个应用市场app下载")  | 各个应用市场app下载 | requests、re、lxml... |

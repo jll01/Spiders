@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   yanzheng.py
-# @Time    :   2020/5/8 18:33
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 def get_track(distance):
     '''拿到移动轨迹，模仿人的滑动行为，先匀加速后匀减速'''
     # 初速度

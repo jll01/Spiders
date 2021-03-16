@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   003boss.py
-# @Time    :   2019/11/25 12:44
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 from bs4 import BeautifulSoup
 from selenium import webdriver
 import json, time
@@ -50,7 +38,7 @@ while True:
             "公司:": company.get_text().strip(),
             "联系人:": link.get_text().strip(),
         }
-        with open('day01-03/017boss.json','a', encoding='utf-8') as f:
+        with open('boss.json','a', encoding='utf-8') as f:
             f.write(json.dumps(items, ensure_ascii=False) + '\n')
     print("第%d页下载完成！" % num)
     time.sleep(60)

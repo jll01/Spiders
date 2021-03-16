@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   005lagou.py
-# @Time    :   2019/11/26 11:16
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import requests
 import hashlib
 import re, time
@@ -30,6 +18,7 @@ def get_password(passwd):
     passwd = 'veenike' + passwd + 'veenike'
     passwd = hashlib.md5(passwd.encode('utf-8')).hexdigest()
     return passwd
+
 
 def get_token():
     Forge_Token = ""

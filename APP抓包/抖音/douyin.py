@@ -1,14 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   douyin.py
-# @Time    :   2020/3/25 14:50
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
 import requests
 import json
 import time
@@ -21,14 +10,14 @@ from threading import Thread
 class DouYin(object):
     def __init__(self):
         # 保存痘印数据(json格式)
-        self.filepath = r'E:\练习\Python\高级教程\爬虫\练习\APP抓包\抖音\抖音数据爬取'
+        self.filepath = r'****'
         # 视频保存路径
-        self.pathinfo = r'E:\练习\Python\高级教程\爬虫\练习\APP抓包\抖音\视频存放'
+        self.pathinfo = r'****'
         self.headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)",
         }
         # 连接mysql数据库
-        self.connect = pymysql.connect(host='localhost', port=3306, db='scrapytest', user='root', passwd='0000')
+        self.connect = pymysql.connect(host='****', port=0000, db='****', user='****', passwd='****')
         self.cur = self.connect.cursor()
 
     @staticmethod

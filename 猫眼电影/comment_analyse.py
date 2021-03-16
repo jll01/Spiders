@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   comment_analyse.py
-# @Time    :   2020/4/20 9:01
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt

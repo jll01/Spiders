@@ -1,22 +1,10 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   data.py
-# @Time    :   2020/1/12 9:58
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import pymysql
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
 
-connect = pymysql.connect(host='localhost', port=3306, user='root', passwd='0000', db='scrapytest')
+connect = pymysql.connect(host='****', port=0000, user='****', passwd='****', db='****')
 cur = connect.cursor()
 sql = 'select bai,shi,ge from 3d'# where id<10'
 cur.execute(sql)

@@ -1,16 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   spidergui.py
-# @Time    :   2019/8/20 17:15
-# @Author  :   LJL
-# @Version :   1.0
-# @Email   :   491692391@qq.com
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import sys
 import pymysql
 
@@ -24,7 +11,7 @@ from PyQt5.QtWidgets import QWidget, QMessageBox
 class SpiderApp(Ui_Form, QWidget):
     def __init__(self):
         super(SpiderApp,self).__init__()
-        self.connect = pymysql.connect(host='localhost',user='root',passwd='0000',port=3306,db='scrapytest')
+        self.connect = pymysql.connect(host='',user='',passwd='',port=0,db='')
         self.cur = self.connect.cursor()
         self.row_count = 0
         self.setFixedSize(self.width(), self.height())

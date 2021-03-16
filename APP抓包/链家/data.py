@@ -1,21 +1,9 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   data.py
-# @Time    :   2020/2/17 10:46
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import pymysql
 
 
-connect = pymysql.connect(host='localhost',port=3306,user='root',passwd='0000',db='scrapytest')
+connect = pymysql.connect(host='',port=0,user='',passwd='',db='')
 sql = '''select * from lianjia'''
 datas = pd.read_sql(sql,con=connect)
 cp_data = datas[:]

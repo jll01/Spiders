@@ -1,14 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   guirun.py
-# @Time    :   2019/8/20 16:14
-# @Author  :   LJL
-# @Version :   1.0
-# @Email   :   491692391@qq.com
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
 from PyQt5 import QtCore, QtGui, QtWidgets
 
 

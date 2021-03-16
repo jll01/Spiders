@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   zongheng_gevent_pool.py
-# @Time    :   2020/4/25 15:58
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 from gevent import monkey
 monkey.patch_all(thread=False)
 

@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   009weibo.py
-# @Time    :   2020/4/1 9:06
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100,  LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import time
 import base64
 import rsa

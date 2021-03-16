@@ -17,7 +17,7 @@ class Price(object):
         # chrome_options.add_argument('--headless')
         # # browser = webdriver.Chrome(chrome_options=chrome_options)
 
-        self.chrome_drive = r'D:\Soft\Browser\Google\Chrome\Application\chromedriver.exe'
+        self.chrome_drive = '****'
         self.driver = webdriver.Chrome(executable_path=self.chrome_drive)
 
         self.name = input('请输入年份月份(如：201803)：')

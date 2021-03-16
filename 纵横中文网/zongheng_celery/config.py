@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   config.py
-# @Time    :   2020/4/26 16:12
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 BROKER_URL = 'redis://localhost:6379/0'  # 使用Redis作为消息代理
 # CELERY_RESULT_BACKEND = 'redis://localhost:6379/3'  # 把任务结果存在了Redis
 CELERY_TASK_SERIALIZER = 'msgpack'  # 任务序列化和反序列化使用msgpack方案

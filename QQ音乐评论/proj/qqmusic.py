@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   qqmusic.py
-# @Time    :   2020/3/1 16:20
-# @Author  :   LJL
-# @Version :   1.0、
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import requests
 import urllib3
 import json

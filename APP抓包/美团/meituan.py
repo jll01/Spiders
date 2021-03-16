@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   meituan.py
-# @Time    :   2020/2/18 18:40
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import requests
 import time
 import json
@@ -34,7 +22,7 @@ class MeiTuan(object):
         # 输入城市的名称
         self.city_name = cityname
         # mysql数据库
-        self.conn = pymysql.connect(host='localhost',port=3306,user='root',passwd='0000',db='scrapytest')
+        self.conn = pymysql.connect(host='',port=0,user='',passwd='',db='')
         self.cur = self.conn.cursor()
 
     def get_id(self):

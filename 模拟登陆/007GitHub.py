@@ -1,15 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   007GitHub.py
-# @Time    :   2019/11/28 8:47
-# @Author  :   LJL
-# @Version :   1.0
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import requests
 from lxml import etree
 
@@ -47,7 +35,6 @@ def Git_Login(email,password):
 
     with open('GitHub.html', 'w', encoding='utf-8') as f:
         f.write(response.text)
-
 
 
 if __name__ == '__main__':

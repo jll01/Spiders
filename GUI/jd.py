@@ -1,16 +1,3 @@
-#!/usr/bin/env python
-# -*- encoding: utf-8 -*-
-# @File    :   jd.py
-# @Time    :   2019/7/20 16:50
-# @Author  :   LJL
-# @Version :   1.0
-# @Email :     491692391@qq.com
-# @License :   (C)Copyright 2019-2100, LJL
-# @Desc    :   None
-
-# here put the import lib
-
-
 import requests
 import re
 import time
@@ -84,7 +71,7 @@ class JD(object):
             'http': random.choice(self.ip),
         }
         # 数据库连接
-        self.connect = pymysql.connect(host='localhost',port=3306,user='root',passwd='0000',db='scrapytest')
+        self.connect = pymysql.connect(host='',port=0,user='',passwd='',db='')
         self.cur = self.connect.cursor()
         # 存储已经获取到的商品的id，避免重复爬取数据
         self.save_shop_id = []
