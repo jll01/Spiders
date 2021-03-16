@@ -60,7 +60,6 @@
 | [OCR](./OCR "百度飞桨")  | 百度飞桨 | paddleocr... |
 | [Selenium反爬虫](./Selenium反爬虫 "Selenium反爬虫")  | 防止识别Selenium和极验滑动验证码 | requests、selenium、numpy... |
 | [Selenium获取response headers](./Selenium获取response headers "Selenium获取response headers")  | Selenium获取response headers | selenium... |
-| [Selenium反爬虫](./Selenium反爬虫 "Selenium反爬虫")  | 防止识别Selenium和极验滑动验证码 | requests、selenium、numpy... |
 | [spider_api](./spider_api "spider_api")  | Flask,域名ICP | flask、requests、socket... |
 | [各个应用市场app下载](./各个应用市场app下载 "各个应用市场app下载")  | 各个应用市场app下载 | requests、re、lxml... |
 | [小鹅通视频下载](./小鹅通视频下载 "小鹅通视频下载")  | 输入视频url下载 | requests、getopt... |
