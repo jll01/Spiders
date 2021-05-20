@@ -1,5 +1,9 @@
 """
-针对 requests 中 verify=False 对一些域名访问失败，报ssl错误
+针对 requests 中使用代理 verify=False 对一些域名访问失败，报ssl错误
+"""
+
+"""
+先卸载重装requests或更新requests版本看能不能解决，不能解决使用下面方法
 """
 
 """
